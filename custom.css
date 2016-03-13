@@ -1,0 +1,30 @@
+#logo a, #logo_dark a {
+  display: inline-block;
+  width: 78px;
+}
+
+#logo, #logo_dark {
+  margin-top: 0;
+}
+
+#logo a img, #logo_dark a img {
+  width: 100%;
+}
+
+.small #logo_dark {
+  margin-top: 0;
+}
+
+.small #logo_dark a {
+  width: 60px;
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+  #logo a, #logo_dark a {
+    display: inline-block;
+    width: 59px;
+  }
+}
