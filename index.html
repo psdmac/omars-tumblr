@@ -596,54 +596,31 @@
 <!-- *** FOOTER START *** -->
 <div id="footer" class="animated" data-animation-target="21">
 	<div class="col_footer">
-		<h2>About Us</h2>
-		<div class="footer_logo"><img src="images/logo_footer.png" alt=""></div>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aspernatur, ratione voluptatum a, quam voluptate quibusdam reiciendis cupiditate quia fugiat earum, vero eveniet reprehenderit.</p>
+		<h2>關於全國通汽車</h2>
+		<p>全國通汽車拖運成立於2009年，是合法立案的汽車專業道路救援拖吊車服務， 同時也是義大利 IVECO 貨車經銷商，創辦人何崇維從1998年進入拖運業，業內經驗豐富只要是能拖運的東西幾乎都運過，在客戶的服務上非常內行在台灣各地結識許多汽車領域的好友。2015年曲</p>
 
 		<div class="divider_padding small"></div>
 
-		<h2>Our location</h2>
+		<h2>展示中心</h2>
 
 		<ul class="footer_adress">
-			<li><i class="fa fa-map-marker fa-2x"></i>1090 California Street, 3dn Floor, Punta del Este, Uruguay.</li>
-			<li><i class="fa fa-mobile fa-2x"></i>+124 456 789 / +000 123 456</li>
+			<li><i class="fa fa-map-marker fa-2x"></i>104 台北市中山區濱江街215號</li>
+			<li><i class="fa fa-mobile fa-2x"></i>(02) 2517-7027</li>
 		</ul>
 	
 
 		<div class="divider_padding small"></div>
 
-		<h2>Social</h2>
-
-		<ul class="footer_icon">
-			<li><a href="#"><i class="fa fa-pinterest fa-2x"></i></a></li>
-			<li><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
-			<li><a href="#"><i class="fa fa-linkedin fa-2x"></i></a></li>
-			<li><a href="#"><i class="fa fa-behance fa-2x"></i></a></li>
-			<li><a href="#"><i class="fa fa-dribbble fa-2x"></i></a></li>
-			<li><a href="#"><i class="fa fa-github-square fa-2x"></i></a></li>
-		</ul>
-
 	</div>
 
 	<div class="col_footer middle">
-			<h2>Our latest tweets</h2>	
-		<div class="tweet"></div>
+		<h2>動態消息</h2>	
+		<div class="fb-page" data-href="https://www.facebook.com/carbus.com.tw" data-tabs="timeline" data-width="300" data-height="400" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/carbus.com.tw"><a href="https://www.facebook.com/carbus.com.tw">全國通汽車股份有限公司</a></blockquote></div></div>
 	</div>
 
 	<div class="col_footer">
-		<h2>Contact</h2>
+		<h2></h2>
 
-		<form method="post" class="reply-input" action="send.php">
-
-			<input type="text" name="name" id="comment-name" required="" value="Your name (required)" onblur="if(this.value=='')this.value='Your name (required)'" onfocus="if(this.value=='Your name (required)')this.value=''"/>
-			<input type="email" name="email" id="comment-email" required="" value="Your email (required)" onblur="if(this.value=='')this.value='Your email (required)'" onfocus="if(this.value=='Your email (required)')this.value=''"/>
-			<input type="text" name="website" id="comment-url" value="Your website" onblur="if(this.value=='')this.value='Your website'" onfocus="if(this.value=='Your website')this.value=''"/>
-			<textarea name="message" id="comment-message" cols="88" rows="6" required="" onblur="if(this.value=='')this.value='Your message'" 
-			onfocus="if(this.value=='Your message')this.value=''">Your message</textarea>
-			<div class="clear"></div>
-			<input class="submit_buttom" type="submit" value="Send Message">
-
-		</form>
 			
 	</div>
 	<div class="clear"></div>
@@ -654,7 +631,8 @@
 
 <!-- *** SUBFOOTER START *** -->
 <div id="subfooter">
-<div class="copyright">Copyright 2014. All Right Reserved.</div> <div class="by_author">Pixel & Code by <a href="#">Breecode</a></div><div class="clear"></div>
+<div class="copyright">Copyright 2015-2016. All Rights Reserved by 全國通汽車股份有限公司.</div> 
+<div class="clear"></div>
 </div>
 <!-- *** SUBFOOTER END *** -->
 
@@ -675,7 +653,6 @@
 <script type="text/javascript" src="js/jquery.nav.js"></script>
 <script type="text/javascript" src="js/isotope.min.js"></script>
 <script type="text/javascript" src="js/owl.carousel.js"></script>
-<script type="text/javascript" src="js/tweetie.js"></script>
 <script type="text/javascript" src="js/jquery.mb.YTPlayer.js"></script>
 <script type="text/javascript" src="js/waypoints.min.js"></script>
 
@@ -689,9 +666,9 @@
 
 <script type="text/javascript">
 
-	jQuery(document).ready(function() {
+	$(document).ready(function() {
 	
-	jQuery('.tp-banner').show().revolution(
+	$('.tp-banner').show().revolution(
 		{
 			dottedOverlay:"none",
 			delay:7000,
@@ -769,5 +746,14 @@
 	});	//ready
 				
 </script>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "http://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.5&appId=567965303332474";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 </body>
 </html>

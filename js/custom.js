@@ -234,22 +234,6 @@ $(four_columns).click(function() {
 
 
 
-
-/*=================================================
-9 - TWITTER FEED
-=================================================*/
-$('.tweet').twittie({
-    dateFormat: '%b. %d, %Y',
-    template: '<a href="{{url}}">{{avatar}}</a>{{tweet}} <div class="date">by {{screen_name}} {{date}} </div>',
-    
-    username: 'envato',
-    count: 4,
-  
-});
-
-
-
-
 /*=================================================
 10 - SIDEBAR TABS BLOG
 =================================================*/
