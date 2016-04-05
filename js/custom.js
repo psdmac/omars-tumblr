@@ -430,8 +430,8 @@ var menu_trigger = jQuery('.menu_trigger');
 var areamenu = jQuery('.mobileAreaMenu');
 var all_li =jQuery('.mobileAreaMenu li');
 
-jQuery(menu_trigger).click(function() {
-
+jQuery(menu_trigger).click(function(e) {
+  e.preventDefault();
 
 if (jQuery(menu_trigger).hasClass('active')){
 

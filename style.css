@@ -1425,8 +1425,9 @@ font-weight: bold;}
 .blog-item {background-color: #ffffff; margin-bottom: 70px;}
 
 .img-container-blog {
-min-height: 400px;
-position: relative;
+/*min-height: 400px;
+*/position: relative;
+
 background-repeat: no-repeat;
 -webkit-background-size: cover;
 background-size: cover;
